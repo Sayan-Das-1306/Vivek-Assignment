@@ -1,0 +1,42 @@
+body{
+    background: url("pic_2.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.table_disp{
+    position: absolute;
+    left: 35%;
+    top: 95%;
+    width: 30%;
+    text-align: center;
+    border-spacing: 2px;
+}
+th,td{
+    padding: 5px 12px;
+}
+th{
+    background: #37213b;
+    color: rgb(50, 205, 192);
+}
+td{
+    color: #f1eaea;
+}
+.management_2{
+    text-align: center;
+    color: aqua;
+}
+.list_2{
+    text-align: right;
+    padding: 10px 400px 0 0;   
+}
+a{
+    color: rgb(200, 209, 66);
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+body{
+    background: url("pic_1.jpeg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.container{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+.search_value,.choice{
+    margin: 0 40px 0 0;
+    background: transparent;
+}
+.search_btn{
+    background: #dbacc8;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.management{
+    text-align: center;
+}
+.list{
+    text-align: right;
+    padding: 10px 400px 0 0;
+    
+}
+a{
+    color: rgb(2, 47, 54);
+    text-decoration: none;
+}
+.table_disp{
+    position: absolute;
+    left: 35%;
+    top: 95%;
+    width: 30%;
+    text-align: center;
+    border-spacing: 2px;
+}
+th,td{
+    padding: 5px 12px;
+}
+th{
+    background: #37213b;
+    color: rgb(50, 205, 192);
+}
+td{
+    color: #fafafa;
+}

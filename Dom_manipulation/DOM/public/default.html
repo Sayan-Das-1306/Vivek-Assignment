@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Need/Css/default.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        <h1 class="management">Book Mangement System</h1>
+        <h2 class="list">
+          <a href="./Need/booklist.html">Booklist</a>&nbsp;|
+          <a href="./Need/addlist.html">Add</a>
+        </h2>
+      </div>
+      <div class="container">
+        <form class="book_form">
+          <label>Type: </label>
+          <select class="choice">
+            <option value="id">Id</option>
+            <option value="author">Author</option>
+            <option value="price">Price</option>
+            <option value="rating">Rating</option>
+          </select>
+          <label>Put your value: </label>
+          <input type="text" placeholder="Enter your text" class="search_value" required/>
+          <button class="search_btn">Search</button>
+          <br /><br />
+          <table class="table_disp">
+            <tr>
+              <th>Id</th>
+              <th>Author</th>
+              <th>Price</th>
+              <th>Rating</th>
+              <th>Action</th>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
