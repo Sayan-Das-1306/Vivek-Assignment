@@ -1,0 +1,25 @@
+body{
+    background: url("pic_3.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.container_1{
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+h2{
+    color: yellow;
+}

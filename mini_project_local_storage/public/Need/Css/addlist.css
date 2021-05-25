@@ -1,0 +1,56 @@
+body{
+    background: url("pic_3.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper_1{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.container_1{
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.id_box,.author_box,.rating_box,.price_box{
+    width: 40%;
+    margin: 10px 0;
+    padding: 0 0 0 55px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    color: #c5ecfd;
+}
+.send{
+    background: #39b7dd;
+    text-align: center;
+    padding: 10px 35px 10px 35px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.management_1{
+    text-align: center;
+    color: aqua;
+}
+.list_1{
+    text-align: right;
+    padding: 10px 400px 0 0;
+    
+}
+a{
+    color: rgb(200, 209, 66);
+    text-decoration: none;
+}

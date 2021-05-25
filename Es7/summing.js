@@ -7,6 +7,7 @@ const sum=(...params) => {
             if(index==params.length){
                 resolve({result, completedOn: new Date().toTimeString()});
                 clearInterval(iid);
+                
             }
         },1000)
     })

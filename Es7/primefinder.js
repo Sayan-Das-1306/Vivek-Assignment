@@ -16,6 +16,7 @@ let primefinder=async (a,b) => {
             if(index==b){
                 resolve({result, completedOn: new Date().toTimeString()});
                 clearInterval(iid);
+                
             }
         },1000)
     })

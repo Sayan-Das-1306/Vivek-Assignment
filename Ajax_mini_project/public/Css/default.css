@@ -1,0 +1,102 @@
+body{
+    background: url("pic_1.jpeg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+.container_1{
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+.search_value,.choice{
+    margin: 0 50px 0 20px;
+    background: transparent;
+    padding: 2px 10px;
+}
+.label_1{
+    padding-left: 40px;
+}
+.search_btn{
+    background: #dbacc8;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.books_list,.add_list{
+    background: #dbacc8;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.management{
+    text-align: center;
+}
+.list{
+    text-align: right;
+    padding: 10px 400px 0 0;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.table_disp{
+    position: absolute;
+    left: 35%;
+    top: 95%;
+    width: 30%;
+    text-align: center;
+    border-spacing: 2px;
+}
+th,td{
+    padding: 5px 12px;
+}
+th{
+    background: #37213b;
+    color: rgb(50, 205, 192);
+}
+td{
+    color: #fafafa;
+}
+
+.input_field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.id_val,.author_val,.price_val{
+    width: 40%;
+    margin: 10px 0;
+    padding: 0 0 0 55px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    color: #c5ecfd;
+}
+.submit_btn{
+    background: #39b7dd;
+    text-align: center;
+    padding: 10px 35px 10px 35px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}

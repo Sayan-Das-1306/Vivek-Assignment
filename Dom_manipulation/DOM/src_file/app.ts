@@ -8,6 +8,7 @@ const search_btn=document.querySelector(".search_btn") as HTMLButtonElement;
 
 //console.log(book_form);
 
+declare var window : any 
 window.listen= { 
     deleteonlyrow
 }
